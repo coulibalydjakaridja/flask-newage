@@ -1,1 +1,4 @@
-Defaulting to user installation because normal site-packages is not writeable
+from core.views import app
+
+if __name__ == "__main__":
+    app.run()
